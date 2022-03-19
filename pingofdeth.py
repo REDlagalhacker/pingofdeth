@@ -37,6 +37,6 @@ while True:
         print(str(bts) + ' bytes sent to host ' + q)
         print('-' * 25)
         print()
-        bts = bts + change
+        bts = bts + int(change)
         sleep(6)
 
